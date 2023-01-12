@@ -1,0 +1,112 @@
+13.01.22 13:22:49: |root INFO| Log started
+13.01.22 13:22:50: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+13.01.22 13:22:51: |aiogram WARNING| Updates were skipped successfully.
+13.01.22 13:22:51: |aiogram.dispatcher.dispatcher INFO| Start polling.
+14.01.22 11:57:25: |root INFO| Log started
+14.01.22 11:57:26: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+14.01.22 11:57:27: |aiogram WARNING| Updates were skipped successfully.
+14.01.22 11:57:27: |aiogram.dispatcher.dispatcher INFO| Start polling.
+14.01.22 12:18:55: |root INFO| Log started
+14.01.22 12:18:55: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+14.01.22 12:18:57: |aiogram WARNING| Updates were skipped successfully.
+14.01.22 12:18:57: |aiogram.dispatcher.dispatcher INFO| Start polling.
+14.01.22 12:19:04: |asyncio ERROR| Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'start_kb' is not defined")>
+Traceback (most recent call last):
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Админ\YandexDisk\Проекты\Bots\4mafia\Bot\bot.py", line 178, in echo_message
+    await message.reply('Pick a calendar', reply_markup=start_kb)
+NameError: name 'start_kb' is not defined
+15.06.2022 18:59:19: |root INFO| Log started
+15.06.2022 18:59:19: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+15.06.2022 18:59:21: |aiogram WARNING| Updates were skipped successfully.
+15.06.2022 18:59:21: |aiogram.dispatcher.dispatcher INFO| Start polling.
+15.06.2022 18:59:48: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+15.06.2022 18:59:48: |aiogram WARNING| Goodbye!
+16.06.2022 19:03:34: |root INFO| Log started
+16.06.2022 19:03:35: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+16.06.2022 19:03:36: |aiogram WARNING| Updates were skipped successfully.
+16.06.2022 19:03:36: |aiogram.dispatcher.dispatcher INFO| Start polling.
+16.06.2022 19:07:48: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+16.06.2022 19:07:48: |aiogram WARNING| Goodbye!
+16.06.2022 19:11:51: |root INFO| Log started
+16.06.2022 19:11:51: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+16.06.2022 19:11:53: |aiogram WARNING| Updates were skipped successfully.
+16.06.2022 19:11:53: |aiogram.dispatcher.dispatcher INFO| Start polling.
+16.06.2022 19:12:05: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+16.06.2022 19:12:05: |aiogram WARNING| Goodbye!
+2022-06-16 19:12:15: |root INFO| Log started
+2022-06-16 19:12:15: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-16 19:12:17: |aiogram WARNING| Updates were skipped successfully.
+2022-06-16 19:12:17: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-16 19:13:48: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-16 19:13:48: |aiogram WARNING| Goodbye!
+2022-06-18 15:53:02: |root INFO| Log started
+2022-06-18 15:53:03: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 15:53:03: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 15:53:03: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 15:55:42: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 15:55:42: |aiogram WARNING| Goodbye!
+2022-06-18 16:05:07: |root INFO| Log started
+2022-06-18 16:05:07: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:05:09: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:05:09: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:09:04: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:09:04: |aiogram WARNING| Goodbye!
+2022-06-18 16:20:09: |root INFO| Log started
+2022-06-18 16:20:09: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:20:11: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:20:11: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:20:41: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:20:41: |aiogram WARNING| Goodbye!
+2022-06-18 16:20:42: |root INFO| Log started
+2022-06-18 16:20:43: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:20:44: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:20:44: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:22:26: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:22:26: |aiogram WARNING| Goodbye!
+2022-06-18 16:22:28: |root INFO| Log started
+2022-06-18 16:22:28: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:22:30: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:22:30: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:23:02: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:23:02: |aiogram WARNING| Goodbye!
+2022-06-18 16:23:04: |root INFO| Log started
+2022-06-18 16:23:04: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:23:05: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:23:05: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:24:49: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:24:49: |aiogram WARNING| Goodbye!
+2022-06-18 16:24:52: |root INFO| Log started
+2022-06-18 16:24:52: |aiogram INFO| Bot: FourMafiaBot [@FourMafia_Bot]
+2022-06-18 16:24:54: |aiogram WARNING| Updates were skipped successfully.
+2022-06-18 16:24:54: |aiogram.dispatcher.dispatcher INFO| Start polling.
+2022-06-18 16:24:58: |asyncio ERROR| Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=OperationalError('near "SELECT": syntax error')>
+Traceback (most recent call last):
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Programs\Python\Interpritator\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Админ\YandexDisk\Проекты\Bots\4mafia\Bot\bot.py", line 218, in process_callback_register_on_event
+    db.add_new_registration(a[0], a[1], callback_query.from_user.id)
+  File "C:\Users\Админ\YandexDisk\Проекты\Bots\4mafia\Bot\sqlighter.py", line 173, in add_new_registration
+    result = self.cursor.execute("INSERT INTO `registration` (`user_id`, 'event_id') VALUES(SELECT event.id FROM event WHERE event.event_type_id = (SELECT event_type.id FROM event_type WHERE event_type.name = '?') AND event.date = '?',SELECT user.id FROM user WHERE user.user_id = '?')",
+sqlite3.OperationalError: near "SELECT": syntax error
+2022-06-18 16:25:09: |aiogram.dispatcher.dispatcher INFO| Stop polling...
+2022-06-18 16:25:09: |aiogram WARNING| Goodbye!
