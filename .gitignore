@@ -5,3 +5,5 @@ test.py
 .gitattributes
 venv
 credentials.py
+.idea
+__pycache__
